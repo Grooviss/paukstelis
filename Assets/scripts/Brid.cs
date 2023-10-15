@@ -37,7 +37,7 @@ public class Brid : MonoBehaviour
     {
         score++;
         scoretext.text = "score: " + score.ToString();
-        
+        audio.Play();
     }
 
 
